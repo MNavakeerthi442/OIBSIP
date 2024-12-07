@@ -1,0 +1,86 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+header button {
+    background-color: white;
+    color: #007bff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+header button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Main section styles */
+main {
+    padding: 2rem 1rem;
+}
+
+section {
+    margin: 2rem auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+}
+
+#usp ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#usp li {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+/* Testimonials styles */
+#testimonials p {
+    font-style: italic;
+    color: #555;
+    margin: 1rem 0;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #007bff;
+    color: white;
+    font-size: 0.9rem;
+}
